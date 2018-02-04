@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <title>小广财</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">小广财</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">简介</a>
+                    </li>
+                    <li>
+                        <a href="#services">功能</a>
+                    </li>
+                    <li>
+                        <a href="#contact">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>小广财</h1>
+                        <h3>广财人的App</h3>
+
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+<!-- <a href="http://www.wegdufe.com/release/weGdufe.apk" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">安卓版/浏览器打开</span></a>
+ -->
+ <a href="http://bmob-cdn-315.b0.upaiyun.com/2018/02/04/27ab1630406296ac80fa88b3a157c385.apk" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">安卓版/浏览器打开</span></a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/WeGdufe/MovingGdufe-Android" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">开源分享</span></a>
+
+                            </li>
+<li>
+
+                               <a href="#" onclick="show('img1')" class="btn btn-default btn-lg"> <i   class="fa fa-wechat fa-fw"></i> <span class="network-name">小程序《小广财》</span><img class="img-responsive" src="img/xcx.jpg" alt="" style='display:none' id='img1' ></a>
+                            </li>
+                         <img align="center"  id="xcx" class="img-responsive " src="img/xcx.jpg"  style='display:none;position:absolute;
+top:86%;
+left:27%;
+transform:translate3D:（-50%,-50%,0）;' />
+
+<script type="text/javascript">
+function show(id)
+{
+    //移动端的img不能在li里，不然没法被识别二维码
+    if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+        id="xcx";
+    }
+    var img = document.getElementById(id);
+    if(img.style.display == "block")
+    {
+        document.getElementById(id).style.display = "none";
+    }
+    else if(document.getElementById(id).style.display == "none")
+    {
+        document.getElementById(id).style.display = "block";
+    }
+}
+</script>
+                            <!-- <li>
+                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">下载iOS版</span></a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+	<a  name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading"><br>查课表</h2>
+                    <p class="lead">连堂课程智能合并，一小节为一个单位</p>
+                    <p class="lead">支持只看当周课程，支持课表桌面控件</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/course.png" alt="" >
+                </div>
+
+                 <!--    <div class="col-lg-3 col-lg-offset-0 col-sm-4">
+                    <img class="img-responsive" src="img/course.png" alt="" >
+                </div> -->
+              <!--   <div class="col-lg-3 col-lg-offset-0  col-sm-4">
+                   <img class="img-responsive" src="img/course_widget.png" alt="">
+                </div> -->
+
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">多种小功能<br>连通教务系统、图书系统、校园网</h2>
+                    <p class="lead">查成绩、图书续借、城市热点登陆 总有一款你需要的</p>
+                </div>
+                <div class="col-lg-4 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/function.png" alt="">
+                </div>
+            </div>
+<!-- class="img-thumbnail" class="col-lg-4  -->
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">个人界面<br>饭卡实时余额实用上天</h2>
+                    <p class="lead">有问题就戳个反馈哟</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/mine.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+	<a  name="contact"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-7">
+                  <!--   Q群：631036490
+                    <p>
+                    该软件源于毕业设计，于2017年4月12日发布Android第一版，以后将持续维护
+                    </p> -->
+                    广财学生开发，源于毕业设计，将持续维护。
+                   无薪招聘在校技术人员，Q群：631036490
+                      <h3>更新日志</h3>
+                    2017年4月12日22:49 v1.0.0 Android版-实现大多数功能<br />
+                    2017年4月18日12:55 v1.1.0 Android版-增加课表桌面控件、每日提醒、生日祝福<br />
+                    2017年4月19日23:25 v1.2.0 Android版-增加课表按周查看，修复Bug<br />
+                    2017年5月31日22:13 v1.3.0 Android版-新增课表编辑、平时成绩、校友体验、课表排课
+                    <br />
+                    2017年6月30日22:56 小程序版《小广财》发布 <br />
+2017年7月16日21:02 v1.3.1 Android版-新增搜书分页查询、辅修成绩查询、学年GPA<br />
+2017年9月09日00:55 v1.4.0 Android版-更名小广财，电控查询、App分享，美化组件UI<br />
+2018年2月04日21:15 v1.5.0 Android版-提高提速账号Drcom稳定性，点击关于页面版本号触发内测<br />
+                </div>
+                <div class="col-lg-5">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a  href="//shang.qq.com/wpa/qunwpa?idkey=75d033914006529ce96370dde3a005d037affe375ad409793e777dfdde69e271" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">加入Q群</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/WeGdufe/MovingGdufe-Android" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">开源合作</span></a>
+                        </li>
+                        <li>
+                            <a href="mailto:movinggdufe@163.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">联系邮箱</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">首页</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <!-- <a href="https://github.com/WeGdufe/MovingGdufe-Android">开放Api</a> -->
+                            <a href="http://www.wegdufe.com/apidoc">开放Api</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#services">功能</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">联系我们</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; 广财人-小光 2017. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
