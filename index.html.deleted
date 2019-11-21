@@ -50,9 +50,8 @@
                     <li>
                         <a href="#services">功能</a>
                     </li>
-                     <li>
-                            <!-- <a href="https://github.com/WeGdufe/MovingGdufe-Android">开放Api</a> -->
-                            <a href="http://www.wegdufe.com/apidoc">开放Api</a>
+                    <li>
+                        <a href="#contact">联系我们</a>
                     </li>
                 </ul>
             </div>
@@ -71,19 +70,19 @@
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>小广财</h1>
-                        <h3>一个人也能做个像样的项目</h3>
+                        <h3>广财人的App</h3>
 
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
 <!-- <a href="http://www.wegdufe.com/release/weGdufe.apk" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">安卓版/浏览器打开</span></a>
  -->
- <!-- <a href="http://bmob-cdn-315.b0.upaiyun.com/2018/02/04/27ab1630406296ac80fa88b3a157c385.apk" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">安卓</span></a>
-                            </li> -->
-
-                           <!--  <li>
+ <a href="http://bmob-cdn-315.b0.upaiyun.com/2018/02/04/27ab1630406296ac80fa88b3a157c385.apk" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">安卓</span></a>
+                            </li>
+                            
+                            <li>
                             <a href="https://itunes.apple.com/cn/app/小广财/id1346521270?mt=8" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">苹果</span></a>
-                            </li> -->
+                            </li>
 
                             <li>
                                <a href="#" onclick="show('img1')" class="btn btn-default btn-lg"> <i   class="fa fa-wechat fa-fw"></i> <span class="network-name">小程序</span><img class="img-responsive" src="img/xcx.jpg" alt="" style='display:none' id='img1' ></a>
@@ -116,7 +115,7 @@ function show(id)
     }
 }
 </script>
-
+                            
                         </ul>
                     </div>
                 </div>
@@ -169,8 +168,7 @@ function show(id)
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">多种小功能</h2>
-                    <!-- <br>连通教务系统、图书系统、校园网 -->
+                    <h2 class="section-heading">多种小功能<br>连通教务系统、图书系统、校园网</h2>
                     <p class="lead">查成绩、图书续借、城市热点登陆 总有一款你需要的</p>
                 </div>
                 <div class="col-lg-4 col-sm-pull-6  col-sm-6">
@@ -217,26 +215,31 @@ function show(id)
                     <p>
                     该软件源于毕业设计，于2017年4月12日发布Android第一版，以后将持续维护
                     </p> -->
-                    迫于毕业设计，当时比较闲，就整了个这么个东西，小程序版持续维护，APP不更新了
+                    广财学生开发，源于毕业设计，将持续维护。
+                   无薪招聘在校技术人员，Q群：631036490
                       <h3>更新日志</h3>
-                    2017年4月12日 安卓版 1.0，最后更新于 2018年2月04日 <br />
-                    2017年6月30日 小程序 1.0 <br />
-                    2018年2月14日 iOS 1.0 <br />
+                    2017年4月12日22:49 v1.0.0 Android版-实现大多数功能<br />
+                    2017年4月18日12:55 v1.1.0 Android版-增加课表桌面控件、每日提醒、生日祝福<br />
+                    2017年4月19日23:25 v1.2.0 Android版-增加课表按周查看，修复Bug<br />
+                    2017年5月31日22:13 v1.3.0 Android版-新增课表编辑、平时成绩、校友体验、课表排课
+                    <br />
+                    2017年6月30日22:56 小程序版《小广财》发布 <br />
+2017年7月16日21:02 v1.3.1 Android版-新增搜书分页查询、辅修成绩查询、学年GPA<br />
+2017年9月09日00:55 v1.4.0 Android版-更名小广财，电控查询、App分享，美化组件UI<br />
+2018年2月04日21:15 v1.5.0 Android版-提高提速账号Drcom稳定性，点击关于页面版本号触发内测<br />
+2018年2月14日11:19 iOS版发布<br />
                 </div>
                 <div class="col-lg-5">
                     <ul class="list-inline banner-social-buttons">
-                       <!--  <li>
-                            <a  href="//shang.qq.com/wpa/qunwpa?idkey=75d033914006529ce96370dde3a005d037affe375ad409793e777dfdde69e271" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">加入Q群</span></a>
-                        </li> -->
-                     <!--    <li>
-                            <a href="https://github.com/WeGdufe" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">开源合作</span></a>
-                        </li> -->
                         <li>
-                            <a href="mailto:792875586@qq.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">联系我</span></a>
+                            <a  href="//shang.qq.com/wpa/qunwpa?idkey=75d033914006529ce96370dde3a005d037affe375ad409793e777dfdde69e271" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">加入Q群</span></a>
                         </li>
-                   <!--        <li>
-                        <a href="mailto:movinggdufe@163.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">联系邮箱</span></a>
-                    </li> -->
+                        <li>
+                            <a href="https://github.com/WeGdufe" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">开源合作</span></a>
+                        </li>
+                        <li>
+                            <a href="mailto:movinggdufe@163.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">联系邮箱</span></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -267,10 +270,10 @@ function show(id)
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#contact">联系我</a>
+                            <a href="#contact">联系我们</a>
                         </li>
                     </ul>
-                      <p class="copyright text-muted small">Copyright &copy; 小光 2017.  <a href="http://beian.miit.gov.cn/">京ICP备18015798号</a></p>
+                      <p class="copyright text-muted small">Copyright &copy; 广财人-小光 2017.  京ICP备18015798号</p>
                 </div>
             </div>
         </div>
